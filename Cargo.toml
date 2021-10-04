@@ -1,0 +1,16 @@
+[package]
+name = "ld49-unstable"
+authors = ["Leonardo Giovanni Scur <me@kroltan.com>"]
+version = "0.1.0"
+edition = "2018"
+build = "build.rs"
+
+[package.metadata.winres]
+ProductName = "Loose Dirt"
+
+[dependencies]
+bevy = "0.5"
+rand = "0.8"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"

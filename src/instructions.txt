@@ -1,0 +1,11 @@
+Press the keys indicated on the top left to select an element.
+
+Left mouse button to paint with the selected element.
+
+Right mouse button erases.
+
+Scroll wheel adjusts brush size.
+
+Rock must be placed next to the map border or more rocks, or else it will crumble.
+
+Press [Space] to bring up this screen again.
